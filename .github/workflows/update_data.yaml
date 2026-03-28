@@ -5,8 +5,8 @@ name: Update Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 10 1,5,15 * *"
-# triggers at 10:00 AM UTC on the 1st, 5th, and 15th of every month
+    - cron: "13 0 * * *"
+# triggers every day at 13 o'clock UTC
 
 
 
