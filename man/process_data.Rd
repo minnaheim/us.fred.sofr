@@ -4,16 +4,16 @@
 \alias{process_data}
 \title{Process SOFRINDEX Data into series.csv}
 \usage{
-process_data(key = "sofr.index")
+process_data(key = "sofr")
 }
 \arguments{
 \item{key}{Directory name under \code{data-raw/} where the CSV is written.
-Defaults to \code{"sofr.index"}.}
+Defaults to \code{"sofr"}.}
 }
 \value{
 Invisibly returns the output file path.
 }
 \description{
 Fetches the most recent vintage of the SOFR Index (SOFRINDEX)
-from FRED and writes it to \code{data-raw/sofr.index/series.csv}.
+from FRED and writes it to \code{data-raw/sofr/series.csv}.
 }

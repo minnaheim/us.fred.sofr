@@ -14,13 +14,13 @@ sources the data from its original provider.
 
 ```r
 ts <- read_open_ts(
-  "us.fred.sofr.index",
+  "us.fred.sofr",
   archive= "opentsi" # or your organisation
 )
 
 ts
 ```
 
-## The us.fred.sofr.index Data R Package
+## The us.fred.sofr Data R Package
 
 

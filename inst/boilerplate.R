@@ -4,7 +4,7 @@ library(opentimeseries)
 
 ## Step 1: Init Archive
 # Already done — archive is initialised.
-# archive_init("us.fred.sofr.index", parent_dir = "~/KOF_Lab/opentsi/")
+# archive_init("us.fred.sofr", parent_dir = "~/KOF_Lab/opentsi/")
 
 
 ## Step 2: Generate History
